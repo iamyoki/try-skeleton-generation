@@ -1,0 +1,16 @@
+{
+  "name": "try-skeleton-generation",
+  "source": "index.html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yoki Yu <yokiyuqian@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
