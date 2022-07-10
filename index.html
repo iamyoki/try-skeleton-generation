@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preload" href="https://picsum.photos/536/354" as='image'>
     <link rel="stylesheet" href="src/styles.css" />
     <script type="module" src="src/index.ts"></script>
   </head>
   <body>
     <div id="root">
       <h1>Hello, World!</h1>
-      <h2>Amazing <br> Very cool!</h2>
+      <h2 style="background-color: hotpink; padding: 10px">
+        Amazing <br />
+        Very cool!
+      </h2>
+      <img width='100' height='100' src="https://picsum.photos/536/354" alt="">
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut corporis,
         rem quae accusamus itaque officiis saepe delectus odio veritatis
@@ -19,13 +24,17 @@
         ipsam?
       </p>
       <ul>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae?</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae?</li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae?
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae?
+        </li>
       </ul>
 
-      <div>测试多行<br><br>中间换行</div>
-      <br>
-      <br>
+      <div>测试多行<br /><br />中间换行</div>
+      <br />
+      <br />
       <div>测试<span>行内</span>标签</div>
     </div>
   </body>
