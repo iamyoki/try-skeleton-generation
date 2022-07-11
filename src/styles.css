@@ -1,7 +1,9 @@
-#skeleton {
-  position: absolute;
-  left: 0;
-  top: 0;
+html,body {
+  margin: 0;
+}
+
+#root {
+  padding: 10px;
 }
 
 li {
