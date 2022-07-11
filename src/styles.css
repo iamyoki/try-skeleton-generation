@@ -1,5 +1,6 @@
 html,body {
   margin: 0;
+  height: 200vh;
 }
 
 #root {
@@ -9,3 +10,4 @@ html,body {
 li {
   padding: 20px;
 }
+
