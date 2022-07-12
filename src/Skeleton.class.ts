@@ -312,5 +312,3 @@ export class Skeleton {
     return originalLineHeight;
   }
 }
-
-window.Skeleton = Skeleton

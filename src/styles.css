@@ -11,3 +11,10 @@ li {
   padding: 20px;
 }
 
+.btn {
+  background-color: royalblue;
+  border: none;
+  padding: 12px;
+  margin: 10px;
+  color: white;
+}
